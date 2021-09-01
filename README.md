@@ -9,5 +9,6 @@ It ensures level 1-6 of security by --
 - Encrypting the DB with the AES-256 encryption technique using the mongoose-encryption package.
 - Further encrypting the password using the md5 hashing.
 - Further securing using the bcrypt package which uses the salting and hashing method.
+- Further used the passport.js to encrypt as well as user authenticate using the Google OAuth 2.0.
 
 Using Session and Cookies using the passport.js
